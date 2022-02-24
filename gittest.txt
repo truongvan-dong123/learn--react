@@ -49,3 +49,12 @@ git commit -m
 
 git push -u origin main
 git push origin main
+
+4. xóa branch 
+
+git branch -d <branchname>
+
+5.cập nhật branch
+
+git pull origin <branch>
+
