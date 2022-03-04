@@ -1,0 +1,23 @@
+.Header{
+    width:595px;
+    height: 570px;
+    border-radius: 10px;
+    background: #fff;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+
+}
+.header_top{
+
+}
+.Header .List{
+    Width :100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:1px solid
+}
+
+

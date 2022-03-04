@@ -54,7 +54,7 @@ git push origin main
 
 git branch -d <branchname>
 
-5.cập nhật branch
+5.cập nhật dữ liệu 1 branch
 
 git pull origin <branch>
 

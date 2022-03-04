@@ -1,0 +1,17 @@
+
+
+.album-list{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content:center;
+    // flex-direction: row; 
+
+    padding: 0px;
+    // margin :0 -20px;
+    list-style-type: none;
+    // margin
+
+    & >li {
+        padding : 0px 20px;
+    }
+}

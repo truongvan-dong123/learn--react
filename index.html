@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>sc</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/styles/custom-style.css"/> -->
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <h1>dong pro</h1>
+
+    <script>
+    function test({a,b,...rest}) {
+        console.log(a)
+        console.log(b)
+        console.log([rest])
+
+    }
+
+    // test(1,2,3,4,5,6,7)
+    test({
+        a:"dong",
+        b: 22,
+        c(){
+            return a
+        },
+        d:"dongpro"
+    })
+
+    </script>
+</body>
+</html>

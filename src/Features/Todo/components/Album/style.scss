@@ -1,0 +1,16 @@
+.album{
+    & >img{
+   
+        with:350px;
+        border-radius:50px;
+
+    }
+    &__name{
+        font-weight: bold;
+    }
+}
+
+// .album > img{
+//     with:350px;
+//     border-radius:50px;
+// }
